@@ -84,7 +84,7 @@ header {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-position {
-    padding-left: 46px;
+    padding-left: 1px;
 }
 .mail-tel {
     padding-top: 32px;
@@ -116,7 +116,7 @@ header {
     color: var(--nav-mail-color);
     margin-right: 50px;
 }
-.active-agencja::after {
+.underline::after {
     content: "";
     position: absolute;
     width: 53px;
@@ -403,15 +403,16 @@ address {
 
 /* portfolio.html */
 /* SECTION-1 "portfolio-buttons */
-.active-portfolio::after {
+.active::after {
     content: "";
     position: absolute;
     width: 53px;
     height: 4px;
-    left: 326px;
+    left: 6px;
     top: 78px;
     background-color: var(--blue-color);
     border-radius: 2px;
+ 
 }
 .portfolio-buttons {
     display: flex;
